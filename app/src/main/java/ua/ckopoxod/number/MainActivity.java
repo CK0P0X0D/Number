@@ -63,41 +63,41 @@ public class MainActivity extends ActionBarActivity {
                         //TextView (nv=1); //"Попытка " + i
                         if (who==secret) {
                             //textViewInfo.setText("Вы угадали наше число " + secret + "\nс "+ i + " попытки! :)"); showDialog(DIALOG_EXIT);
-                            TextViewNumberText (nv=3);
+                            TextView_NumberText (nv=3);
                         }
                         else {
                             if (who<secret) {
                                 //textViewInfo.setText("Попытка №"+ i +"\nВаше число меньше нашего!");
-                                TextViewNumberText (nv=1);
+                                TextView_NumberText (nv=1);
                             }
                             else {
                                 //textViewInfo.setText("Попытка №"+ i +"\nВаше число больше нашего!");
-                                TextViewNumberText (nv=2);
+                                TextView_NumberText (nv=2);
                             }
                         }
                     }
                     else
                     {
                         //textViewInfo.setText("Вы проиграли! :("); showDialog(DIALOG_EXIT);
-                        TextViewNumberText (nv=4);
+                        TextView_NumberText (nv=4);
                     }
                 }
                 else
                 {
                     //textViewInfo.setText("Введите плиз целое число.");
-                    TextViewNumberText (nv=5);
+                    TextView_NumberText (nv=5);
                 }
             }
             else
             {
                 //textViewInfo.setText("Введите плиз число от 0 до 100.");
-                TextViewNumberText (nv=6);
+                TextView_NumberText (nv=6);
             }
         }
         else
         {
             //textViewInfo.setText("Введите число плиз.");
-            TextViewNumberText (nv=7);
+            TextView_NumberText (nv=7);
         }
 
         editResult.setText(""); //Сброс окна ввода )))
@@ -107,7 +107,7 @@ public class MainActivity extends ActionBarActivity {
 
 
 
-    protected void TextViewNumberText (int NumberText) {
+    protected void TextView_NumberText (int NumberText) {
         switch (NumberText) {
             case 0:   //Старт
                  break;
@@ -144,7 +144,7 @@ public class MainActivity extends ActionBarActivity {
 
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        TextViewNumberText(nv);
+        TextView_NumberText(nv);
     }
 
 
