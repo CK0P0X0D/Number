@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="D:\Users\CK0P0X0D\Training\Number\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Users\CK0P0X0D\Training\Number\app\build\intermediates\pre-dexed\debug\classes-9e2e937a094a07f5e829c79173897530ca568127.jar" />
+    </item>
+    <item
         jar="D:\Users\CK0P0X0D\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -21,13 +28,6 @@
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="D:\Users\CK0P0X0D\Training\Number\app\build\intermediates\pre-dexed\debug\classes-e6ac11efdee90957eecd78db4b100a7584c0650d.jar" />
-    </item>
-    <item
-        jar="D:\Users\CK0P0X0D\Training\Number\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="D:\Users\CK0P0X0D\Training\Number\app\build\intermediates\pre-dexed\debug\classes-9e2e937a094a07f5e829c79173897530ca568127.jar" />
     </item>
 
 </items>
